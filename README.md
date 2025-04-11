@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📘 README
 
-## Getting Started
+# Domain Checker App
 
-First, run the development server:
+A web application that allows users to check domain name availability and view domain information or contact details.
+
+---
+
+## 🚀 Features
+
+-   Check domain availability.
+-   View detailed domain info or contact info.
+-   Simple and easy-to-use UI.
+
+---
+
+## 🔗 Live Demo
+
+👉 [View Live Demo](https://domain-checker-app.vercel.app/)
+
+---
+
+## 🛠️ Setup Instructions
+
+### 1. Clone the Repository
 
 ```bash
+git clone https://github.com/your-username/domain-checker-app.git
+cd domain-checker-app
+
+
+2. Install Dependencies
+Make sure you have Node.js installed. Then run:
+
+bash
+Copy
+Edit
+npm install
+3. Set up Environment Variables
+Create a .env.local file in the root of the project and add the following:
+
+env
+Copy
+Edit
+WHOIS_API_KEY=your-api-key
+NEXT_PUBLIC_API_URL=https://your-api-url.com
+
+4. Run the Development Server
+bash
+Copy
+Edit
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Your app will be running at:
+http://localhost:5000
+
+📦 Build for Production
+bash
+Copy
+Edit
+npm run build
+npm start
+🚢 Deployment
+This app is deployed on Vercel.
+You can easily deploy it by connecting your GitHub repository to Vercel.
+
+🧪 Features
+Domain Name Checker: Check if a domain name is available.
+
+Domain Info: Get detailed information about a domain (e.g., registrar, registration date).
+
+Contact Info: View contact details related to the domain owner.
+
+🙌 Author
+Developed by John Michael Guilaran
+
+
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
