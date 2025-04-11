@@ -69,5 +69,3 @@ Contact Info: View contact details related to the domain owner.
 🙌 Author
 Developed by John Michael Guilaran
 
-
-```
