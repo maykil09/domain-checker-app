@@ -25,7 +25,7 @@ A web application that allows users to check domain name availability and view d
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/domain-checker-app.git
+git clone https://github.com/maykil09/domain-checker-app.git
 cd domain-checker-app
 ```
 
