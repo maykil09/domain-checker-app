@@ -54,7 +54,10 @@ http://localhost:5000
 ```
 npm run build
 npm start
+```
+
 🚢 Deployment
+```
 This app is deployed on Vercel.
 You can easily deploy it by connecting your GitHub repository to Vercel.
 ```
