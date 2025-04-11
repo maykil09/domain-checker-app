@@ -63,12 +63,13 @@ You can easily deploy it by connecting your GitHub repository to Vercel.
 ```
 
 🧪 Features
+```
 Domain Name Checker: Check if a domain name is available.
 
 Domain Info: Get detailed information about a domain (e.g., registrar, registration date).
 
 Contact Info: View contact details related to the domain owner.
-
+```
 🙌 Author
 Developed by John Michael Guilaran
 
